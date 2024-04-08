@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav id="menu">
+            <a href="">HOME</a>
+            <a href="">IMAGES</a>
+            <a href="">LIKES</a>
+            <a href="">ABOUT</a>
+        </nav>
+        <img id="content" src="menu.png" alt="menu">
+    </div>
+    <h3>IMAGE CREATOR</h3>
+    <input class="text" type="text" placeholder="search any image here">
+    <div class="image-product">
+    <div class="images1">
+        <div class="image">
+            <p>Nature-Mountain</p>
+            <img class="nature" src="20.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p>Monsoon-nature</p>
+            <img class="nature" src="19.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p>Animal-elephant</p>
+            <img class="nature" src="17.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p>Animal</p>
+            <img class="nature" src="16.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div></div>
+        <div class="images2">
+        <div class="image">
+            <p class="para">Fox</p>
+            <img class="monkey" src="18.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Animal</p>
+            <img class="monkey" src="15.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+       <div class="image">
+            <p class="para" >Travelling</p>
+            <img class="monkey" src="9.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Face painting</p>
+            <img class="monkey" src="1.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div></div>
+        <div class="images3">
+        <div class="image">
+            <p class="para" >Painting</p>
+            <img class="monkey" src="2.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Brid-painting</p>
+            <img class="monkey" src="3.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Business</p>
+            <img class="monkey" src="4.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Group-Business</p>
+            <img class="monkey" src="5.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+    </div>
+    <div class="images4">
+        <div class="image">
+            <p class="para" >Group-meeting</p>
+            <img class="monkey" src="6.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Enjoying-Business</p>
+            <img class="monkey" src="7.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Word-travelling</p>
+            <img class="monkey" src="8.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+        <div class="image">
+            <p class="para" >Travelling</p>
+            <img class="monkey" src="9.jpg" alt="image"><br>
+            <a href="20.jpg" download><img class="down" src="download.png" alt="nature"></a>
+            <img id="heart"  onclick="heart()"  src="heart.png" alt="heart">
+        </div>
+    </div></div>
+    <script>
+        const menu=document.getElementById("menu")
+        const content=document.getElementById("content");
+        content.addEventListener("click",()=>{
+            menu.classList.toggle("active");
+            content.classList.toggle("active");
+        })
+        function heart(){
+        const like=document.getElementById("heart");
+             like.style.backgroundColor='red';
+             like.style.borderRadius='30px';
+        }
+    </script>
+</body>
+</html>
